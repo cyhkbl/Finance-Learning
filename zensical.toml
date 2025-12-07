@@ -1,0 +1,65 @@
+[project]
+site_name = "Blank's CS Learning"
+site_description = "空白棱的CS学习笔记"
+site_author = "空白棱"
+site_url = "https://cyhkbl.github.io/CS-learning/"
+copyright = "&copy; 空白棱"
+nav = [
+    {"股票市场" = ""},
+    {"债券市场" = ""}
+]
+
+[project.theme]
+language = "zh"
+favicon = "avatar_without_background.png"
+logo = "avatar_without_background.png"
+features = [
+    "announce.dismiss",
+    "content.action.edit",
+    "content.action.view",
+    "content.code.annotate",
+    "content.code.copy",
+    "content.code.select",
+    "content.footnote.tooltips",
+    "content.tabs.link",
+    "content.tooltips",
+    "header.autohide",
+    "navigation.expand",
+    "navigation.footer",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.instant.progress",
+    "navigation.path",
+    "navigation.prune",
+    "navigation.sections",
+    "navigation.tabs",
+    "navigation.top",
+    "navigation.tracking",
+    "search.highlight",
+    "search.suggest",
+    "toc.follow"
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+palette.primary = "pink"
+palette.accent = "pink"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+palette.primary = "purple"
+palette.accent = "purple"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.theme.font]
+text = "Noto Serif SC"
+code = "Jetbrains Mono"
+
+[project.theme.icon]
+repo = "avatar_without_background.png"
