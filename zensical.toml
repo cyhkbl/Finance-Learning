@@ -4,6 +4,7 @@ site_description = "空白棱的金融学习笔记"
 site_author = "空白棱"
 site_url = "https://cyhkbl.github.io/Finance-learning/"
 copyright = "&copy; 空白棱"
+repo_url = "https://github.com/cyhkbl/Finance-learning"
 nav = [
     {"股票市场" = [
         { "基础知识" = "股票市场/基础知识.md" },
