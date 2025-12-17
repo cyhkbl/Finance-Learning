@@ -6,6 +6,9 @@ site_url = "https://cyhkbl.github.io/Finance-learning/"
 copyright = "&copy; 空白棱"
 repo_url = "https://github.com/cyhkbl/Finance-learning"
 nav = [
+    {"金融与生活" = [
+        { "银行" = "金融与生活/银行.md" }
+    ]},
     {"股票市场" = [
         { "基础知识" = "股票市场/基础知识.md" },
         { "基本面分析" = "股票市场/基本面分析.md" },
