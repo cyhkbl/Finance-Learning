@@ -2,7 +2,7 @@
 site_name = "Blank's Finance Learning"
 site_description = "空白棱的金融学习笔记"
 site_author = "空白棱"
-site_url = "https://cyhkbl.github.io/Finance-learning/"
+site_url = "https://cyhkbl.qzz.io/Finance-Learning/"
 copyright = "&copy; 空白棱"
 repo_url = "https://github.com/cyhkbl/Finance-learning"
 nav = [
@@ -80,3 +80,4 @@ toggle.name = "Switch to light mode"
 [project.theme.font]
 text = "Noto Serif SC"
 code = "Jetbrains Mono"
+base_url = "/Finance-Learning/"
