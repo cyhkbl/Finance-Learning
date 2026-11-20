@@ -67,6 +67,13 @@ code = "Jetbrains Mono"
 base_url = "/Finance-Learning/"
 
 [[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
 scheme = "default"
-palette.primary = "pink"
-palette.accent = "pink"
+primary = "pink"
+accent = "pink"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "purple"
+accent = "purple"
