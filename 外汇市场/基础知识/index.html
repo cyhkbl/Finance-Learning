@@ -1,0 +1,1293 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="空白棱的金融学习笔记">
+      
+      
+        <meta name="author" content="空白棱">
+      
+      
+        <link rel="canonical" href="https://cyhkbl.qzz.io/Finance-Learning/%E5%A4%96%E6%B1%87%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+      
+      
+      
+        <link rel="prev" href="../../%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../avatar_without_background.png">
+      <meta name="generator" content="zensical-0.1.2">
+    
+    
+      
+        <title>基础知识 - Blank's Finance Learning</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.ebb7f775.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.b60ce83d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300i,400,400i,500,500i,700,700i%7CJetbrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Noto Serif SC";--md-code-font:"Jetbrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-hidden="true"></label>
+    <div data-md-component="skip">
+      <a href="#__skip" class="md-skip">
+        跳转至
+      </a>
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Blank&#x27;s Finance Learning" class="md-header__button md-logo" aria-label="Blank's Finance Learning" data-md-component="logo">
+      
+  <img src="../../avatar_without_background.png" alt="Blank's Finance Learning">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+      <span class="md-visually-hidden">导航栏</span>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Blank's Finance Learning
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              基础知识
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="pink"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="purple" data-md-color-accent="purple"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+          <span class="md-visually-hidden">查找</span>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="查找">
+  <button type="button" class="md-search__button">
+    查找
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+        <a href="https://github.com/cyhkbl/Finance-learning" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E/%E8%B4%A7%E5%B8%81/" class="md-tabs__link">
+          
+  
+  宏观经济
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%9F%E6%B4%BB/%E7%90%86%E8%B4%A2/" class="md-tabs__link">
+          
+  
+  金融与生活
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E8%82%A1%E7%A5%A8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-tabs__link">
+          
+  
+  股票市场
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-tabs__link">
+          
+  
+  债券市场
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+      
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="././" class="md-tabs__link">
+          
+  
+  外汇市场
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Blank&#x27;s Finance Learning" class="md-nav__button md-logo" aria-label="Blank's Finance Learning" data-md-component="logo">
+      
+  <img src="../../avatar_without_background.png" alt="Blank's Finance Learning">
+
+    </a>
+    Blank's Finance Learning
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cyhkbl/Finance-learning" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E/%E8%B4%A7%E5%B8%81/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  宏观经济
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%9F%E6%B4%BB/%E7%90%86%E8%B4%A2/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  金融与生活
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E8%82%A1%E7%A5%A8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  股票市场
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  债券市场
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  外汇市场
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        
+          <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+            <label class="md-nav__title" for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  外汇市场
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+                  
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  基础知识
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  基础知识
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        外汇市场
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="外汇市场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. 完全可兑换改变的是“机制”，不是“结果公式”
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. 有几个经济学“锚”会大致约束这个汇率区间
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1ppp" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        （1）购买力平价（PPP）：长期看不能偏离太离谱
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2uip" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        （2）利率平价（UIP）：资本流动会盯着“回报 + 汇率预期”
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        （3）国际收支平衡：不能长期双向“吸金”或“漏水”
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. 那人民币“更可能”是升值还是贬值？
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. 用一句话做个总结
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        外汇市场
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="外汇市场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. 完全可兑换改变的是“机制”，不是“结果公式”
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. 有几个经济学“锚”会大致约束这个汇率区间
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1ppp" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        （1）购买力平价（PPP）：长期看不能偏离太离谱
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2uip" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        （2）利率平价（UIP）：资本流动会盯着“回报 + 汇率预期”
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        （3）国际收支平衡：不能长期双向“吸金”或“漏水”
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. 那人民币“更可能”是升值还是贬值？
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. 用一句话做个总结
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="导航栏" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Blank's Finance Learning
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="././" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    外汇市场
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                <a id="__skip" tabindex="-1"></a>
+                
+                  
+
+  
+    <a href="https://github.com/cyhkbl/Finance-learning/edit/master/docs/外汇市场/基础知识.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-pen" viewBox="0 0 24 24"><path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34"/><path d="M14 2v5a1 1 0 0 0 1 1h5M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/cyhkbl/Finance-learning/raw/master/docs/外汇市场/基础知识.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-code-2" viewBox="0 0 24 24"><path d="M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35"/><path d="M14 2v5a1 1 0 0 0 1 1h5M5 16l-3 3 3 3M9 22l3-3-3-3"/></svg>
+    </a>
+  
+
+
+  <h1>基础知识</h1>
+
+<h2 id="_1">外汇市场<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>如果资本经常项目开放，人民币持有者和外币持有者可以无限额自由兑换，人民币的汇率会是多少？</p>
+</blockquote>
+<p>先把结论说在前面：</p>
+<blockquote>
+<p><strong>即使经常项目和资本项目都完全开放、人民币和外币无限额自由兑换，人民币的汇率也不是一个可以“算出来”的固定数字，而是：
+ 由市场供求决定的、围绕中国经济基本面波动的“均衡汇率区间”。</strong></p>
+</blockquote>
+<p>也就是说：不是“开放了就一定是 1 美元 = 5 元 / 10 元 / 某个具体数”，而是<strong>在什么水平上能让中国对外收支大致平衡、投资回报与风险匹配，这个水平就是当时的市场汇率。</strong></p>
+<hr />
+<h3 id="1">1. 完全可兑换改变的是“机制”，不是“结果公式”<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<p>假设：</p>
+<ul>
+<li>经常项目开放（现在其实已经基本是这样）</li>
+<li>资本项目也完全开放（居民、企业、机构都可以随便换汇、对外投资、套保）</li>
+</ul>
+<p>那汇率的决定机制就很简单：</p>
+<blockquote>
+<p><strong>在某个汇率水平上：
+ 想要买人民币的人数量 = 想要卖人民币的人数量</strong></p>
+</blockquote>
+<ul>
+<li><strong>买人民币的一方</strong>：</li>
+<li>外国人买中国货物和服务（出口、来华旅游、留学等）</li>
+<li>外国人买中国资产（股票、债券、房地产、直接投资）</li>
+<li>投机/套利资金看好人民币资产、预期升值</li>
+<li><strong>卖人民币的一方</strong>：</li>
+<li>中国人买外国货物和服务（进口、出国旅游留学等）</li>
+<li>中国人买外国资产（对外投资、移民资产配置等）</li>
+<li>投机/套利资金看空人民币资产、预期贬值</li>
+</ul>
+<p>当某个汇率下：</p>
+<ul>
+<li>买人民币多、卖人民币少 → 人民币会<strong>升值</strong>，直到多出来的需求被抑制</li>
+<li>卖人民币多、买人民币少 → 人民币会<strong>贬值</strong>，直到多出来的供给被吸收</li>
+</ul>
+<p>这就是“市场决定汇率”的本质。</p>
+<hr />
+<h3 id="2">2. 有几个经济学“锚”会大致约束这个汇率区间<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<p>虽然没法给出精确数字，但可以说说它大概会被哪些东西“拴住”：</p>
+<h3 id="1ppp">（1）购买力平价（PPP）：长期看不能偏离太离谱<a class="headerlink" href="#1ppp" title="Permanent link">&para;</a></h3>
+<p>很粗略地说，长期里汇率不可能让同样一篮子 tradable 商品在中国和国外价格差距太夸张，不然就会被贸易和套利拉扯回来。</p>
+<p>公式上常写成：</p>
+<blockquote>
+<p><strong>E ≈ P_CN / P_US</strong>
+ 其中 E 是名义汇率（比如 1 美元 = E 元人民币）
+ P_CN 是中国物价水平，P_US 是美国物价水平</p>
+</blockquote>
+<ul>
+<li>如果中国物价长期涨得<strong>比国外快</strong> → 人民币名义汇率长期趋势会<strong>贬值</strong>（1 美元要更多人民币）</li>
+<li>如果中国生产率提升快、成本低、物价涨得慢 → 人民币长期有<strong>升值</strong>压力</li>
+</ul>
+<p>当然，现实比这个复杂得多（有非贸易品、服务、不同篮子等），但这是个大方向。</p>
+<hr />
+<h3 id="2uip">（2）利率平价（UIP）：资本流动会盯着“回报 + 汇率预期”<a class="headerlink" href="#2uip" title="Permanent link">&para;</a></h3>
+<p>完全开放的资本项目下，国际资金会看：</p>
+<blockquote>
+<p><strong>本币利率 ≈ 外币利率 + 预期汇率变动 + 风险溢价</strong></p>
+</blockquote>
+<p>写成一句话就是：</p>
+<blockquote>
+<p><strong>人民币利率 ≈ 美元利率 + 预期人民币贬值率 + 风险补偿</strong></p>
+</blockquote>
+<ul>
+<li>如果中国利率很高、风险不大、大家又不太担心人民币贬值 → 大量资金会流入人民币资产 → 人民币升值或维持较强</li>
+<li>如果中国利率低、经济前景不佳或风险溢价上升、大家预期人民币会贬值 → 资金就往外跑 → 人民币承压贬值</li>
+</ul>
+<p>这会把人民币汇率“拴”在一个跟<strong>利差 + 预期 + 风险</strong>相匹配的水平附近。</p>
+<hr />
+<h3 id="3">（3）国际收支平衡：不能长期双向“吸金”或“漏水”<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<p>在完全开放的情况下，总体上要满足：</p>
+<blockquote>
+<p><strong>经常账户余额 + 资本金融账户余额 + 误差与遗漏 ≈ 0</strong></p>
+</blockquote>
+<ul>
+<li>如果人民币非常“便宜”（被严重低估）：</li>
+<li>出口超级有竞争力，经常账户大额顺差</li>
+<li>再加上中国资产高回报，资本持续流入</li>
+<li>合在一起就是：外汇<strong>净流入</strong>严重 &gt; 外汇净流出</li>
+<li>结果：人民币会有巨大的<strong>升值压力</strong>，直到贸易顺差变小、资本流入也不那么巨大</li>
+<li>如果人民币严重“高估”：</li>
+<li>出口疲弱、进口旺盛，经常账户可能变成赤字</li>
+<li>资本也不停流出（大家觉得外面更香）</li>
+<li>合起来就是：外汇<strong>长期净流出</strong></li>
+<li>结果：人民币会<strong>贬值</strong>，直到贸易、资本流动都大致平衡</li>
+</ul>
+<p>因此：“完全开放 + 市场汇率”下，<strong>那个最终的汇率水平，就是能让国际收支大致可持续的那一个。</strong></p>
+<hr />
+<h3 id="3_1">3. 那人民币“更可能”是升值还是贬值？<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h3>
+<p>这个问题本身就已经隐含了一个判断：<strong>现在的人民币是被高估还是低估</strong>。
+ 但这个判断<strong>高度依赖具体年份的中国经济状态、政策、利差、国际局势</strong>，并不是一个长期固定答案。</p>
+<p>可以这样理解：</p>
+<ul>
+<li>如果在某个时期：</li>
+<li>中国生产率高、增长强、利率高于海外</li>
+<li>通胀相对温和</li>
+<li>资本想进中国的力量 &gt; 想出去的</li>
+<li>政策又在“压着”人民币别升得太快
+     → 一旦完全开放，<strong>理论上人民币会有一定升值压力</strong></li>
+<li>但在另一些时期：</li>
+<li>经济增速明显放缓</li>
+<li>利率下来了，甚至比海外低</li>
+<li>居民、企业强烈想要资产多元化、往外配</li>
+<li>市场对未来增长与风险更悲观
+     → 完全开放后，<strong>人民币可能反而会承受贬值乃至更大波动</strong></li>
+</ul>
+<p>所以不能说“开放以后人民币一定更强 / 一定更弱”，只能说：</p>
+<blockquote>
+<p><strong>完全可兑换以后，人民币会更“像一个普通的大币种”：
+ 短期随市场情绪大起大落，长期由生产率、物价、利差、人口结构、制度环境等基本面决定一个均衡区间。</strong></p>
+</blockquote>
+<hr />
+<h3 id="4">4. 用一句话做个总结<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<p>如果经常项目和资本项目都开放，人民币与外币可以无限额自由兑换，那么：</p>
+<blockquote>
+<p><strong>人民币汇率将由外汇市场供求决定，围绕一个由中国经济基本面（物价、生产率、利差、国际收支、风险溢价等）决定的“均衡水平”上下波动，而不是一个可以事先算出来的具体数字。</strong></p>
+</blockquote>
+<p>如果你愿意，我可以用一个简单的“假想经济”举数字例子，演示在不同通胀、利率和资本流动假设下，均衡汇率大致会往哪个方向动。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../../%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 基础知识">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                基础知识
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 空白棱
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog" role="status" aria-atomic="true">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      
+<div class="md-progress" data-md-component="progress" role="progressbar" aria-label="Loading"></div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.action.edit","content.action.view","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","header.autohide","navigation.expand","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.instant.progress","navigation.path","navigation.prune","navigation.sections","navigation.tabs","navigation.top","navigation.tracking","search.highlight","search.suggest","toc.follow"],"redirect":null,"search":"../../assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"已复制","clipboard.copy":"复制","clipboard.error":"Could not copy to clipboard","search.result.more.one":"在该页上还有 1 个符合条件的结果","search.result.more.other":"在该页上还有 # 个符合条件的结果","search.result.none":"没有找到符合条件的结果","search.result.one":"找到 1 个符合条件的结果","search.result.other":"# 个符合条件的结果","search.result.placeholder":"键入以开始搜索","search.result.term.missing":"缺少","select.version":"选择当前版本"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3cb411a8.min.js"></script>
+      
+    
+  </body>
+</html>

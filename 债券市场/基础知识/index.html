@@ -1,0 +1,1314 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="空白棱的金融学习笔记">
+      
+      
+        <meta name="author" content="空白棱">
+      
+      
+        <link rel="canonical" href="https://cyhkbl.qzz.io/Finance-Learning/%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+      
+      
+      
+        <link rel="prev" href="../../%E8%82%A1%E7%A5%A8%E5%B8%82%E5%9C%BA/%E4%BA%A4%E6%98%93%E4%BD%93%E7%B3%BB/">
+      
+      
+        <link rel="next" href="../../%E5%A4%96%E6%B1%87%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../avatar_without_background.png">
+      <meta name="generator" content="zensical-0.1.2">
+    
+    
+      
+        <title>基础知识 - Blank's Finance Learning</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.ebb7f775.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.b60ce83d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300i,400,400i,500,500i,700,700i%7CJetbrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Noto Serif SC";--md-code-font:"Jetbrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-hidden="true"></label>
+    <div data-md-component="skip">
+      <a href="#__skip" class="md-skip">
+        跳转至
+      </a>
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Blank&#x27;s Finance Learning" class="md-header__button md-logo" aria-label="Blank's Finance Learning" data-md-component="logo">
+      
+  <img src="../../avatar_without_background.png" alt="Blank's Finance Learning">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+      <span class="md-visually-hidden">导航栏</span>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Blank's Finance Learning
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              基础知识
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="pink"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="purple" data-md-color-accent="purple"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+          <span class="md-visually-hidden">查找</span>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="查找">
+  <button type="button" class="md-search__button">
+    查找
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+        <a href="https://github.com/cyhkbl/Finance-learning" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E/%E8%B4%A7%E5%B8%81/" class="md-tabs__link">
+          
+  
+  宏观经济
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%9F%E6%B4%BB/%E7%90%86%E8%B4%A2/" class="md-tabs__link">
+          
+  
+  金融与生活
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E8%82%A1%E7%A5%A8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-tabs__link">
+          
+  
+  股票市场
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+      
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="././" class="md-tabs__link">
+          
+  
+  债券市场
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../%E5%A4%96%E6%B1%87%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-tabs__link">
+          
+  
+  外汇市场
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Blank&#x27;s Finance Learning" class="md-nav__button md-logo" aria-label="Blank's Finance Learning" data-md-component="logo">
+      
+  <img src="../../avatar_without_background.png" alt="Blank's Finance Learning">
+
+    </a>
+    Blank's Finance Learning
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cyhkbl/Finance-learning" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E/%E8%B4%A7%E5%B8%81/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  宏观经济
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%9F%E6%B4%BB/%E7%90%86%E8%B4%A2/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  金融与生活
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E8%82%A1%E7%A5%A8%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  股票市场
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  债券市场
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        
+          <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+            <label class="md-nav__title" for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  债券市场
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+                  
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  基础知识
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  基础知识
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        债券市场
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="债券市场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        第一部分：什么是债券市场？
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        第二部分：个人可以到债券市场投资吗？
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        第三部分：个人通过什么方式投资债券？
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="第三部分：个人通过什么方式投资债券？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        方式一：直接投资
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        方式二：间接投资
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        总结与建议
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+  
+    <a href="../../%E5%A4%96%E6%B1%87%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  外汇市场
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        债券市场
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="债券市场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        第一部分：什么是债券市场？
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        第二部分：个人可以到债券市场投资吗？
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        第三部分：个人通过什么方式投资债券？
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="第三部分：个人通过什么方式投资债券？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        方式一：直接投资
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        方式二：间接投资
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        总结与建议
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="导航栏" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Blank's Finance Learning
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="././" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    债券市场
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                <a id="__skip" tabindex="-1"></a>
+                
+                  
+
+  
+    <a href="https://github.com/cyhkbl/Finance-learning/edit/master/docs/债券市场/基础知识.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-pen" viewBox="0 0 24 24"><path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34"/><path d="M14 2v5a1 1 0 0 0 1 1h5M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/cyhkbl/Finance-learning/raw/master/docs/债券市场/基础知识.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-code-2" viewBox="0 0 24 24"><path d="M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35"/><path d="M14 2v5a1 1 0 0 0 1 1h5M5 16l-3 3 3 3M9 22l3-3-3-3"/></svg>
+    </a>
+  
+
+
+  <h1>基础知识</h1>
+
+<h2 id="_1">债券市场<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>当然可以，这是一个非常好的问题。下面我将为您详细解释债券市场，以及个人如何参与投资。</p>
+<h3 id="_2">第一部分：什么是债券市场？<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>简单来说，<strong>债券市场</strong>是发行和交易债券的场所。</p>
+<p>您可以把它想象成一个巨大的“借贷市场”：
+- <strong>借款人（发行方）</strong>：需要资金，例如政府、地方政府、企业、金融机构等。他们通过发行债券来向大众借钱。
+- <strong>贷款人（投资者）</strong>：有闲置资金，希望通过出借资金来获得稳定收益。他们购买债券，成为债权人。</p>
+<p><strong>债券的核心要素：</strong>
+1. <strong>面值</strong>：债券的票面价格，通常是到期后发行人偿还给你的本金。
+2. <strong>票面利率</strong>：发行人承诺每年支付给你的利息比率。例如，一张面值1000元、利率5%的债券，每年会付给你50元利息。
+3. <strong>到期日</strong>：债券的最终偿还日期，到了这一天，发行方会将本金（面值）还给你。</p>
+<p>债券市场根据交易阶段分为：
+- <strong>一级市场</strong>：发行新债券的市场，投资者在这里直接认购新发行的债券。
+- <strong>二级市场</strong>：已发行债券的交易市场，投资者可以像买卖股票一样，相互买卖已经上市的债券。</p>
+<hr />
+<h3 id="_3">第二部分：个人可以到债券市场投资吗？<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p><strong>完全可以！</strong></p>
+<p>个人投资者不仅可以，而且债券是构建多元化投资组合、降低整体风险的重要工具。与股票市场的高波动性相比，债券通常能提供更稳定的收入流，并起到“资金避风港”的作用。</p>
+<hr />
+<h3 id="_4">第三部分：个人通过什么方式投资债券？<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>个人投资者有多种渠道可以进入债券市场，主要分为<strong>直接投资</strong>和<strong>间接投资</strong>两大类。</p>
+<h4 id="_5">方式一：直接投资<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p>这是指个人直接购买债券，成为债券的持有人。</p>
+<ol>
+<li><strong>证券交易所（场内市场）</strong></li>
+<li><strong>如何操作</strong>：通过你的股票账户，像买卖股票一样，在交易软件中输入债券代码进行买卖。</li>
+<li><strong>可投资品种</strong>：<ul>
+<li><strong>国债</strong>：由国家发行，信用等级最高，几乎无违约风险。在交易所交易的国债被称为“记账式国债”。</li>
+<li><strong>地方政府债</strong>：由地方政府发行，信用等级也很高。</li>
+<li><strong>金融债</strong>：由银行或金融机构发行。</li>
+<li><strong>公司债/企业债</strong>：由上市公司或大型企业发行，收益率通常高于国债，但风险也相应更高。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：流动性好，可以随时买卖；门槛较低，通常以“手”（10张）为单位交易。</li>
+<li>
+<p><strong>缺点</strong>：需要自己研究发行主体的信用状况；价格会随市场利率波动，可能有价差亏损的风险。</p>
+</li>
+<li>
+<p><strong>银行柜台（场外市场）</strong></p>
+</li>
+<li><strong>如何操作</strong>：携带身份证去银行网点，或通过手机银行、网上银行购买。</li>
+<li><strong>可投资品种</strong>：<ul>
+<li><strong>储蓄国债</strong>：这是专门为个人投资者设计的国债，不可上市交易，但通常可以提前兑取。分为凭证式（纸质凭证）和电子式两种。<strong>这是最受普通投资者欢迎的方式之一</strong>，因其安全、收益稳定、购买方便。</li>
+</ul>
+</li>
+<li><strong>优点</strong>：非常安全，操作简单直观，收益稳定。</li>
+<li><strong>缺点</strong>：流动性相对较差，提前兑取可能会有利息损失；发行次数有限，需要抢购。</li>
+</ol>
+<h4 id="_6">方式二：间接投资<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<p>这是指个人通过购买投资于债券的金融产品来参与市场，将专业的事情交给专业机构。</p>
+<ol>
+<li><strong>债券型基金</strong></li>
+<li><strong>如何操作</strong>：通过银行、证券公司、支付宝、天天基金等第三方平台购买。</li>
+<li><strong>原理</strong>：基金公司把众多投资者的钱聚集起来，由专业的基金经理去投资一个包含多种债券的组合。</li>
+<li><strong>优点</strong>：<ul>
+<li><strong>专业管理</strong>：无需自己挑选债券。</li>
+<li><strong>分散风险</strong>：投资一篮子债券，避免“把鸡蛋放在一个篮子里”。</li>
+<li><strong>门槛极低</strong>：几十元或几百元即可起投。</li>
+<li><strong>流动性好</strong>：开放式基金可以随时申购赎回。</li>
+</ul>
+</li>
+<li>
+<p><strong>类型</strong>：</p>
+<ul>
+<li><strong>纯债基金</strong>：只投资债券，风险相对较低。</li>
+<li><strong>一级债基/二级债基</strong>：可以少量参与新股申购或投资股票，风险和潜在收益都更高。</li>
+</ul>
+</li>
+<li>
+<p><strong>银行理财产品</strong></p>
+</li>
+<li>很多银行理财产品（尤其是中低风险等级的产品）其主要投资方向就是债券市场。你可以通过银行App或网点购买这些产品。</li>
+</ol>
+<h3 id="_7">总结与建议<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">投资方式</th>
+<th style="text-align: left;">渠道</th>
+<th style="text-align: left;">优点</th>
+<th style="text-align: left;">缺点</th>
+<th style="text-align: left;">适合人群</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>储蓄国债</strong></td>
+<td style="text-align: left;">银行柜台/网银</td>
+<td style="text-align: left;"><strong>最安全</strong>、收益稳定、门槛低</td>
+<td style="text-align: left;">流动性较差、需要抢购</td>
+<td style="text-align: left;">风险厌恶型，追求绝对安全的投资者</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>交易所债券</strong></td>
+<td style="text-align: left;">证券公司/股票账户</td>
+<td style="text-align: left;">流动性好、品种丰富</td>
+<td style="text-align: left;">需要专业知识、价格有波动</td>
+<td style="text-align: left;">有一定投资经验，愿意花时间研究的投资者</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>债券基金</strong></td>
+<td style="text-align: left;">基金公司/第三方平台</td>
+<td style="text-align: left;"><strong>门槛低</strong>、专业管理、分散风险</td>
+<td style="text-align: left;">有基金管理费、净值有波动</td>
+<td style="text-align: left;"><strong>最适合绝大多数个人投资者的方式</strong>，省心省力</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>银行理财</strong></td>
+<td style="text-align: left;">银行</td>
+<td style="text-align: left;">操作方便、风险相对可控</td>
+<td style="text-align: left;">收益不透明、可能有手续费</td>
+<td style="text-align: left;">习惯在银行进行资产配置的投资者</td>
+</tr>
+</tbody>
+</table>
+<p><strong>给新手的建议：</strong></p>
+<ol>
+<li><strong>从最安全的开始</strong>：如果想直接投资，可以从<strong>储蓄国债</strong>开始尝试，感受一下债券投资的流程。</li>
+<li><strong>首选债券基金</strong>：对于绝大多数没有时间和专业知识去研究单个债券的投资者来说，<strong>债券型基金（尤其是纯债基金）</strong> 是最佳选择。它完美地平衡了风险、收益和便利性。</li>
+<li><strong>注意风险</strong>：债券并非完全没有风险。主要风险包括：</li>
+<li><strong>利率风险</strong>：市场利率上升，已发行债券的价格会下跌。</li>
+<li><strong>信用风险</strong>：发行人可能还不上钱（违约）。</li>
+<li><strong>流动性风险</strong>：某些债券可能不容易快速卖出。</li>
+</ol>
+<p>希望这个详细的解释能帮助您全面了解债券市场和个人投资方式！</p>
+<p>强劲的GDP增长通常利空债市（经济好，通胀和利率上行压力大，债券价格下跌）。</p>
+<p>通胀会侵蚀债券的固定收益，导致央行加息，债券价格下跌。</p>
+<ul>
+<li><strong>债市</strong>：利率与债券价格呈<strong>负相关</strong>。加息周期，债市走熊；降息周期，债市走牛。</li>
+</ul>
+<p>扩张性财政政策意味着政府需要发行更多国债，增加债券供给，可能对债市形成压力（“挤出效应”）。同时，刺激经济可能推高利率，也利空债市。</p>
+<p><strong>债市</strong>：本币贬值可能引发资本外流，导致国内流动性收紧，利空债市。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../../%E8%82%A1%E7%A5%A8%E5%B8%82%E5%9C%BA/%E4%BA%A4%E6%98%93%E4%BD%93%E7%B3%BB/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 交易体系">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                交易体系
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../%E5%A4%96%E6%B1%87%E5%B8%82%E5%9C%BA/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="md-footer__link md-footer__link--next" aria-label="下一页: 基础知识">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                基础知识
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 空白棱
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog" role="status" aria-atomic="true">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      
+<div class="md-progress" data-md-component="progress" role="progressbar" aria-label="Loading"></div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.action.edit","content.action.view","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","header.autohide","navigation.expand","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.instant.progress","navigation.path","navigation.prune","navigation.sections","navigation.tabs","navigation.top","navigation.tracking","search.highlight","search.suggest","toc.follow"],"redirect":null,"search":"../../assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"已复制","clipboard.copy":"复制","clipboard.error":"Could not copy to clipboard","search.result.more.one":"在该页上还有 1 个符合条件的结果","search.result.more.other":"在该页上还有 # 个符合条件的结果","search.result.none":"没有找到符合条件的结果","search.result.one":"找到 1 个符合条件的结果","search.result.other":"# 个符合条件的结果","search.result.placeholder":"键入以开始搜索","search.result.term.missing":"缺少","select.version":"选择当前版本"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3cb411a8.min.js"></script>
+      
+    
+  </body>
+</html>
